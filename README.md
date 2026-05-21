@@ -1,4 +1,4 @@
-# Machine Learning Internship – Task Submissions
+# Machine Learning Internship | SkillCraft  – Task Submissions
 
 ## Overview
 
