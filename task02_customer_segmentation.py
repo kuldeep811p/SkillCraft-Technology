@@ -15,16 +15,7 @@ from sklearn.metrics import silhouette_score, davies_bouldin_score
 # ─────────────────────────────────────────────
 # 1. Load Dataset
 # ─────────────────────────────────────────────
-# If you downloaded Mall_Customers.csv from Kaggle, use:
-# df = pd.read_csv("Mall_Customers.csv")
-# df.rename(columns={
-#     "Annual Income (k$)"  : "annual_income",
-#     "Spending Score (1-100)": "spending_score",
-#     "Age"                 : "age",
-#     "Genre"               : "gender"
-# }, inplace=True)
-#
-# Synthetic dataset that mirrors the real one:
+
 
 np.random.seed(42)
 n = 200
