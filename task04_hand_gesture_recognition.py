@@ -22,7 +22,7 @@ from sklearn.metrics import (
 #    Expected structure: DATASET_PATH/<gesture_name>/*.png
 # ─────────────────────────────────────────────────────────────
 
-USE_REAL_DATA = False          # ← Set True with the real dataset
+USE_REAL_DATA = False          
 DATASET_PATH  = "leapGestRecog"
 IMG_SIZE      = (64, 64)
 MAX_PER_CLASS = 300
