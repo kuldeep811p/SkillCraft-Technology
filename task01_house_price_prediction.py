@@ -16,10 +16,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 # ─────────────────────────────────────────────
 # 1. Load Dataset
 # ─────────────────────────────────────────────
-# If you have the CSV from Kaggle, replace the path below:
-# df = pd.read_csv("house_prices.csv")
-#
-# For demonstration we generate a realistic synthetic dataset:
+
 
 np.random.seed(42)
 n = 500
