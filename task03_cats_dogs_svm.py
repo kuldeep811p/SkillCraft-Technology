@@ -23,10 +23,10 @@ from sklearn.decomposition import PCA
 # 3. Set USE_REAL_DATA = True and update DATASET_PATH below
 # ─────────────────────────────────────────────────────────────
 
-USE_REAL_DATA = False           # ← Set True when you have the files
-DATASET_PATH  = "train"         # folder containing cats/ and dogs/
-IMG_SIZE      = (64, 64)        # resize all images to this
-MAX_PER_CLASS = 1000            # limit to speed up SVM training
+USE_REAL_DATA = False           
+DATASET_PATH  = "train"         
+IMG_SIZE      = (64, 64)        
+MAX_PER_CLASS = 1000            
 
 # ─────────────────────────────────────────────
 # Helper: load images from disk
