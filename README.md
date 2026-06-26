@@ -17,7 +17,6 @@
 pip install numpy pandas matplotlib seaborn scikit-learn tensorflow pillow
 ```
 
----
 
 ## Task 01 – House Price Prediction (Linear Regression)
 
